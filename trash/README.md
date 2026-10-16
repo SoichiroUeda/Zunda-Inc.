@@ -18,3 +18,6 @@
 | 2026-10-16 | `2026-10-16_kickoff_v2.md` | `kickoff.md` | v3 作成のため（続けるかどうかの決め方を追加） | `kickoff.md`（v3） |
 | 2026-10-16 | `2026-10-16_dev_survey_v3.md` | `dev_survey.md` | v4 作成のため（選考を前提にした表現を修正） | `dev_survey.md`（v4） |
 | 2026-10-16 | `2026-10-16_owner_notes_v3.md` | `owner_notes.md` | v4 作成のため（続けてもらうための準備、続ける人が少ない場合の備え） | `owner_notes.md`（v4） |
+| 2026-10-16 | `2026-10-16_project_v5.md` | `project.md` | v6 作成のため（活動量を週5時間に、「ベータ」と呼べる条件を追加） | `project.md`（v6） |
+| 2026-10-16 | `2026-10-16_kickoff_v3.md` | `kickoff.md` | v4 作成のため（活動量を週5時間と明記） | `kickoff.md`（v4） |
+| 2026-10-16 | `2026-10-16_owner_notes_v4.md` | `owner_notes.md` | v5 作成のため（活動量、正式リリースまでの道筋） | `owner_notes.md`（v5） |
