@@ -47,4 +47,12 @@ Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `recruit*`,
 | `dev_survey.md` | Survey for developer applicants, LINE-ready (member-facing) |
 | `owner_notes.md` | Owner-only notes (confidential) |
 | `recruit.md`, `recruitdocument.pdf`, `recruitslide.pdf` | Recruiting materials |
+| `share/` | PDFs for members, generated from `project.md` and `kickoff.md` (kickoff's owner checklist is left out) |
+| `scripts/build_share_pdfs.mjs` | Builds `share/`. Run: `NODE_PATH=/opt/node-tools/node_modules node scripts/build_share_pdfs.mjs` |
 | `trash/` | Old versions and retired files. See `trash/README.md` |
+
+## Regenerating `share/`
+
+- After changing `project.md` or `kickoff.md`, offer to regenerate the PDFs.
+- Rule 1 applies: before regenerating, move the existing PDFs to `trash/` with `git mv` and log them.
+- Never put owner-only content in `share/`. After building, check the PDF text (`pdftotext`) for "ずんだ" / "Zunda" and for owner-only sections.

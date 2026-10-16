@@ -21,3 +21,4 @@
 | 2026-10-16 | `2026-10-16_project_v5.md` | `project.md` | v6 作成のため（活動量を週5時間に、「ベータ」と呼べる条件を追加） | `project.md`（v6） |
 | 2026-10-16 | `2026-10-16_kickoff_v3.md` | `kickoff.md` | v4 作成のため（活動量を週5時間と明記） | `kickoff.md`（v4） |
 | 2026-10-16 | `2026-10-16_owner_notes_v4.md` | `owner_notes.md` | v5 作成のため（活動量、正式リリースまでの道筋） | `owner_notes.md`（v5） |
+| 2026-10-16 | `2026-10-16_CLAUDE_2.md` | `CLAUDE.md` | share/ と PDF 生成スクリプトをファイル一覧に追加 | `CLAUDE.md` |
