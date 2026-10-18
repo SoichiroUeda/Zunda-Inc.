@@ -19,7 +19,9 @@ No file in this repository is ever deleted, and no old version is ever lost. Thi
 
 ## Rule 2: Confidentiality
 
-`owner_notes.md` is for ぷらぐら only.
+`owner_notes.md` and `dev_survey_results.md` are for ぷらぐら only (the latter holds members' individual answers).
+
+Refer to members by initials (e.g. KY, IH, FT, IT) in this repository, not by full names.
 
 **Never in member-facing material:**
 - ずんだ社 / "ずんだ" / "Zunda" and any plan to start a company
@@ -46,6 +48,7 @@ Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `recruit*`,
 | `kickoff.md` | Kickoff meeting agenda and proposed December goals (member-facing) |
 | `dev_survey.md` | Survey for developer applicants, LINE-ready (member-facing) |
 | `owner_notes.md` | Owner-only notes (confidential) |
+| `dev_survey_results.md` | Developer survey answers and analysis (owner-only) |
 | `recruit.md`, `recruitdocument.pdf`, `recruitslide.pdf` | Recruiting materials |
 | `share/` | PDFs for members, generated from `project.md` and `kickoff.md` (kickoff's owner checklist is left out) |
 | `scripts/build_share_pdfs.mjs` | Builds `share/`. Run: `NODE_PATH=/opt/node-tools/node_modules node scripts/build_share_pdfs.mjs` |

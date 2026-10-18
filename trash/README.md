@@ -22,3 +22,5 @@
 | 2026-10-16 | `2026-10-16_kickoff_v3.md` | `kickoff.md` | v4 作成のため（活動量を週5時間と明記） | `kickoff.md`（v4） |
 | 2026-10-16 | `2026-10-16_owner_notes_v4.md` | `owner_notes.md` | v5 作成のため（活動量、正式リリースまでの道筋） | `owner_notes.md`（v5） |
 | 2026-10-16 | `2026-10-16_CLAUDE_2.md` | `CLAUDE.md` | share/ と PDF 生成スクリプトをファイル一覧に追加 | `CLAUDE.md` |
+| 2026-10-18 | `2026-10-18_dev_survey_results_v1.md` | `dev_survey_results.md` | v2 作成のため（アルファ週の合計時間の見積もりを修正） | `dev_survey_results.md`（v2） |
+| 2026-10-18 | `2026-10-18_CLAUDE.md` | `CLAUDE.md` | アンケート結果ファイルをオーナー専用に追加、メンバーはイニシャル表記とする | `CLAUDE.md` |
