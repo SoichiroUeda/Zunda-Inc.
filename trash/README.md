@@ -24,3 +24,5 @@
 | 2026-10-16 | `2026-10-16_CLAUDE_2.md` | `CLAUDE.md` | share/ と PDF 生成スクリプトをファイル一覧に追加 | `CLAUDE.md` |
 | 2026-10-18 | `2026-10-18_dev_survey_results_v1.md` | `dev_survey_results.md` | v2 作成のため（アルファ週の合計時間の見積もりを修正） | `dev_survey_results.md`（v2） |
 | 2026-10-18 | `2026-10-18_CLAUDE.md` | `CLAUDE.md` | アンケート結果ファイルをオーナー専用に追加、メンバーはイニシャル表記とする | `CLAUDE.md` |
+| 2026-10-18 | `2026-10-18_owner_notes_v5.md` | `owner_notes.md` | v6 作成のため（Claude Team・GitHub Organization の方針、支払いの方針を追加） | `owner_notes.md`（v6） |
+| 2026-10-18 | `2026-10-18_dev_survey_results_v2.md` | `dev_survey_results.md` | v3 作成のため（AI ツールと GitHub の用意の仕方、本人への確認事項を追加） | `dev_survey_results.md`（v3） |
