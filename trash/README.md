@@ -29,3 +29,4 @@
 | 2026-10-19 | `2026-10-19_CLAUDE.md` | `CLAUDE.md` | feature_discussion.md をファイル一覧とメンバー向け資料に追加 | `CLAUDE.md` |
 | 2026-10-19 | `2026-10-19_owner_notes_v6.md` | `owner_notes.md` | v7 作成のため（Claude Team はオーナーの席も必要で 4 席、個人 Pro の扱いは未定） | `owner_notes.md`（v7） |
 | 2026-10-19 | `2026-10-19_dev_survey_results_v3.md` | `dev_survey_results.md` | v4 作成のため（Claude Team の席数を 4 席に修正） | `dev_survey_results.md`（v4） |
+| 2026-10-19 | `2026-10-19_owner_notes_v7.md` | `owner_notes.md` | v8 作成のため（個人 Pro を続けることに決定） | `owner_notes.md`（v8） |
