@@ -33,7 +33,7 @@ Refer to members by initials (e.g. KY, IH, FT, IT) in this repository, not by fu
 - The owner pays for paid AI tools (Claude Code etc.) used for the project
 - The owner may lend MacBooks for development
 
-Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `recruit*`, and anything written for project members or for the app's codebase. If unsure whether something is member-facing, ask.
+Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `feature_discussion.md`, `recruit*`, and anything written for project members or for the app's codebase. If unsure whether something is member-facing, ask.
 
 ## Rule 3: Source priority
 
@@ -47,6 +47,7 @@ Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `recruit*`,
 | `project.md` | Project overview (member-facing) |
 | `kickoff.md` | Kickoff meeting agenda and proposed December goals (member-facing) |
 | `dev_survey.md` | Survey for developer applicants, LINE-ready (member-facing) |
+| `feature_discussion.md` | Feature comparison with Structured and new feature ideas, for discussion (member-facing) |
 | `owner_notes.md` | Owner-only notes (confidential) |
 | `dev_survey_results.md` | Developer survey answers and analysis (owner-only) |
 | `recruit.md`, `recruitdocument.pdf`, `recruitslide.pdf` | Recruiting materials |
