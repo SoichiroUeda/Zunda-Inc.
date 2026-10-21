@@ -32,3 +32,6 @@
 | 2026-10-19 | `2026-10-19_owner_notes_v7.md` | `owner_notes.md` | v8 作成のため（個人 Pro を続けることに決定） | `owner_notes.md`（v8） |
 | 2026-10-21 | `2026-10-21_alpha_spec_v1.md` | `alpha_spec.md` | v2 作成のため（交渉の例の時刻と案の内容を修正） | `alpha_spec.md`（v2） |
 | 2026-10-21 | `2026-10-21_CLAUDE.md` | `CLAUDE.md` | alpha_spec.md をファイル一覧とメンバー向け資料に追加 | `CLAUDE.md` |
+| 2026-10-21 | `2026-10-21_alpha_spec_v2.md` | `alpha_spec.md` | v3 作成のため（体制、時限・睡眠・延長の確定、API キーの扱いと無料枠の注意） | `alpha_spec.md`（v3） |
+| 2026-10-21 | `2026-10-21_owner_notes_v8.md` | `owner_notes.md` | v9 作成のため（開発の体制、Gemini API キーの方針） | `owner_notes.md`（v9） |
+| 2026-10-21 | `2026-10-21_dev_survey_results_v4.md` | `dev_survey_results.md` | v5 作成のため（開発責任者の決定を追記） | `dev_survey_results.md`（v5） |
