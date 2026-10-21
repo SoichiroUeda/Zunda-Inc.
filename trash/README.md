@@ -36,3 +36,4 @@
 | 2026-10-21 | `2026-10-21_owner_notes_v8.md` | `owner_notes.md` | v9 作成のため（開発の体制、Gemini API キーの方針） | `owner_notes.md`（v9） |
 | 2026-10-21 | `2026-10-21_dev_survey_results_v4.md` | `dev_survey_results.md` | v5 作成のため（開発責任者の決定を追記） | `dev_survey_results.md`（v5） |
 | 2026-10-21 | `2026-10-21_alpha_spec_v3.md` | `alpha_spec.md` | v4 作成のため（使うモデルを gemini-2.5-flash-lite に確定） | `alpha_spec.md`（v4） |
+| 2026-10-21 | `2026-10-21_CLAUDE_2.md` | `CLAUDE.md` | app_repo_drafts/ をファイル一覧とメンバー向け資料に追加 | `CLAUDE.md` |

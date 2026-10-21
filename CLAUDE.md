@@ -33,7 +33,7 @@ Refer to members by initials (e.g. KY, IH, FT, IT) in this repository, not by fu
 - The owner pays for paid AI tools (Claude Code etc.) used for the project
 - The owner may lend MacBooks for development
 
-Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `feature_discussion.md`, `alpha_spec.md`, `recruit*`, and anything written for project members or for the app's codebase. If unsure whether something is member-facing, ask.
+Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `feature_discussion.md`, `alpha_spec.md`, `app_repo_drafts/`, `recruit*`, and anything written for project members or for the app's codebase. If unsure whether something is member-facing, ask.
 
 ## Rule 3: Source priority
 
@@ -49,6 +49,7 @@ Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `feature_di
 | `dev_survey.md` | Survey for developer applicants, LINE-ready (member-facing) |
 | `feature_discussion.md` | Feature comparison with Structured and new feature ideas, for discussion (member-facing) |
 | `alpha_spec.md` | Alpha development spec for developers: screens, logic, AI I/O, tasks, flow (member-facing; copy to the app repo to share) |
+| `app_repo_drafts/` | Drafts of files for the app repo (`app_CLAUDE.md` → `CLAUDE.md`, `app_AGENTS.md` → `AGENTS.md`, `app_README.md` → `README.md`). Member-facing. Prefixed with `app_` so they are not loaded as this repo's instructions. Keep `app_CLAUDE.md` and `app_AGENTS.md` identical except the title line |
 | `owner_notes.md` | Owner-only notes (confidential) |
 | `dev_survey_results.md` | Developer survey answers and analysis (owner-only) |
 | `recruit.md`, `recruitdocument.pdf`, `recruitslide.pdf` | Recruiting materials |
