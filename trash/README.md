@@ -41,3 +41,7 @@
 | 2026-10-21 | `2026-10-21_app_CLAUDE.md` | `app_repo_drafts/app_CLAUDE.md` | モデル名を gemini-3.5-flash-lite に変更 | `app_repo_drafts/app_CLAUDE.md` |
 | 2026-10-21 | `2026-10-21_app_AGENTS.md` | `app_repo_drafts/app_AGENTS.md` | モデル名を gemini-3.5-flash-lite に変更 | `app_repo_drafts/app_AGENTS.md` |
 | 2026-10-21 | `2026-10-21_app_README.md` | `app_repo_drafts/app_README.md` | モデル名を gemini-3.5-flash-lite に変更 | `app_repo_drafts/app_README.md` |
+| 2026-10-21 | `2026-10-21_alpha_spec_v5.md` | `alpha_spec.md` | v6 作成のため（KY がアルファに参加しないため、体制・担当・作業順を変更） | `alpha_spec.md`（v6） |
+| 2026-10-21 | `2026-10-21_app_README_2.md` | `app_repo_drafts/app_README.md` | 開発責任者の表記を IT のみに変更 | `app_repo_drafts/app_README.md` |
+| 2026-10-21 | `2026-10-21_owner_notes_v9.md` | `owner_notes.md` | v10 作成のため（開発の体制の変更） | `owner_notes.md`（v10） |
+| 2026-10-21 | `2026-10-21_dev_survey_results_v5.md` | `dev_survey_results.md` | v6 作成のため（KY の不参加と担当の変更） | `dev_survey_results.md`（v6） |
