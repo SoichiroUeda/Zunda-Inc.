@@ -37,3 +37,7 @@
 | 2026-10-21 | `2026-10-21_dev_survey_results_v4.md` | `dev_survey_results.md` | v5 作成のため（開発責任者の決定を追記） | `dev_survey_results.md`（v5） |
 | 2026-10-21 | `2026-10-21_alpha_spec_v3.md` | `alpha_spec.md` | v4 作成のため（使うモデルを gemini-2.5-flash-lite に確定） | `alpha_spec.md`（v4） |
 | 2026-10-21 | `2026-10-21_CLAUDE_2.md` | `CLAUDE.md` | app_repo_drafts/ をファイル一覧とメンバー向け資料に追加 | `CLAUDE.md` |
+| 2026-10-21 | `2026-10-21_alpha_spec_v4.md` | `alpha_spec.md` | v5 作成のため（2.5 系が新規プロジェクトで使えないため、モデルを gemini-3.5-flash-lite に変更） | `alpha_spec.md`（v5） |
+| 2026-10-21 | `2026-10-21_app_CLAUDE.md` | `app_repo_drafts/app_CLAUDE.md` | モデル名を gemini-3.5-flash-lite に変更 | `app_repo_drafts/app_CLAUDE.md` |
+| 2026-10-21 | `2026-10-21_app_AGENTS.md` | `app_repo_drafts/app_AGENTS.md` | モデル名を gemini-3.5-flash-lite に変更 | `app_repo_drafts/app_AGENTS.md` |
+| 2026-10-21 | `2026-10-21_app_README.md` | `app_repo_drafts/app_README.md` | モデル名を gemini-3.5-flash-lite に変更 | `app_repo_drafts/app_README.md` |

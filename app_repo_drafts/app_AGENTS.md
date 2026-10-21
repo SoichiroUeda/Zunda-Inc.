@@ -26,7 +26,7 @@
 
 ## AI（Gemini）の呼び出し
 
-- モデルは `gemini-2.5-flash-lite`。モデル名は 1 か所の定数（例：`lib/config.dart`）にまとめる。
+- モデルは `gemini-3.5-flash-lite`。モデル名は 1 か所の定数（例：`lib/config.dart`）にまとめる。
 - REST API を `http` パッケージで呼ぶ。キーは `x-goog-api-key` ヘッダーで渡す。
 - キーはコードに書かず、`const String.fromEnvironment('GEMINI_API_KEY')` で受け取る。
 - AI の返事は JSON で受け取り、形をチェックしてから使う。**時刻の計算は AI にさせず、アプリ側で行う**（仕様書 3.6）。

@@ -40,14 +40,14 @@ flutter test
 **Mac（ターミナル）**
 
 ```
-curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent" -H "x-goog-api-key: ここにキー" -H "Content-Type: application/json" -d '{"contents":[{"parts":[{"text":"Hello"}]}]}'
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent" -H "x-goog-api-key: ここにキー" -H "Content-Type: application/json" -d '{"contents":[{"parts":[{"text":"Hello"}]}]}'
 ```
 
 **Windows（PowerShell）** 2 行に分かれています。1 行目のキーを書き換えて、両方まとめて貼り付ける。
 
 ```
 $key = "ここにキー"
-(Invoke-RestMethod -Method Post -Uri "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent" -Headers @{"x-goog-api-key"=$key} -ContentType "application/json" -Body '{"contents":[{"parts":[{"text":"Hello"}]}]}').candidates[0].content.parts[0].text
+(Invoke-RestMethod -Method Post -Uri "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent" -Headers @{"x-goog-api-key"=$key} -ContentType "application/json" -Body '{"contents":[{"parts":[{"text":"Hello"}]}]}').candidates[0].content.parts[0].text
 ```
 
 英語の返事が出れば成功。`429` が出たら無料枠の上限なので、少し時間をおく。
