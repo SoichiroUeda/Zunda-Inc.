@@ -45,3 +45,4 @@
 | 2026-10-21 | `2026-10-21_app_README_2.md` | `app_repo_drafts/app_README.md` | 開発責任者の表記を IT のみに変更 | `app_repo_drafts/app_README.md` |
 | 2026-10-21 | `2026-10-21_owner_notes_v9.md` | `owner_notes.md` | v10 作成のため（開発の体制の変更） | `owner_notes.md`（v10） |
 | 2026-10-21 | `2026-10-21_dev_survey_results_v5.md` | `dev_survey_results.md` | v6 作成のため（KY の不参加と担当の変更） | `dev_survey_results.md`（v6） |
+| 2026-10-23 | `2026-10-23_owner_notes_v10.md` | `owner_notes.md` | v11 作成のため（アプリの ID を 11/8 までに決める件を追加） | `owner_notes.md`（v11） |
