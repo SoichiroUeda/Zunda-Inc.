@@ -46,3 +46,4 @@
 | 2026-10-21 | `2026-10-21_owner_notes_v9.md` | `owner_notes.md` | v10 作成のため（開発の体制の変更） | `owner_notes.md`（v10） |
 | 2026-10-21 | `2026-10-21_dev_survey_results_v5.md` | `dev_survey_results.md` | v6 作成のため（KY の不参加と担当の変更） | `dev_survey_results.md`（v6） |
 | 2026-10-23 | `2026-10-23_owner_notes_v10.md` | `owner_notes.md` | v11 作成のため（アプリの ID を 11/8 までに決める件を追加） | `owner_notes.md`（v11） |
+| 2026-10-23 | `2026-10-23_alpha_spec_v6.md` | `alpha_spec.md` | v7 作成のため（交渉の役割分担を変更：AI は選ぶだけ、延長の分数はアプリが計算、can_shorten/can_postpone、slack_min） | `alpha_spec.md`（v7） |
