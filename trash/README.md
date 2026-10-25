@@ -48,3 +48,4 @@
 | 2026-10-23 | `2026-10-23_owner_notes_v10.md` | `owner_notes.md` | v11 作成のため（アプリの ID を 11/8 までに決める件を追加） | `owner_notes.md`（v11） |
 | 2026-10-23 | `2026-10-23_alpha_spec_v6.md` | `alpha_spec.md` | v7 作成のため（交渉の役割分担を変更：AI は選ぶだけ、延長の分数はアプリが計算、can_shorten/can_postpone、slack_min） | `alpha_spec.md`（v7） |
 | 2026-10-25 | `2026-10-25_alpha_spec_v7.md` | `alpha_spec.md` | v8 作成のため（アルファ週の日程を確定） | `alpha_spec.md`（v8） |
+| 2026-10-25 | `2026-10-25_alpha_spec_v8.md` | `alpha_spec.md` | v9 作成のため（S4 で今日／明日の固定予定を入れられるようにする） | `alpha_spec.md`（v9） |
