@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+Work on the branch `claude/nifty-euler-ys73hn` unless told otherwise (all work so far is there, not on `main`).
+
 Planning repository for ぷらぐら's sleep-protecting task management app project, **Rism**.
 Documents are mostly in Japanese; write new documents in Japanese unless asked otherwise.
 
@@ -19,7 +21,7 @@ No file in this repository is ever deleted, and no old version is ever lost. Thi
 
 ## Rule 2: Confidentiality
 
-`owner_notes.md` and `dev_survey_results.md` are for ぷらぐら only (the latter holds members' individual answers).
+`owner_notes.md`, `dev_survey_results.md`, and `handoff.md` are for ぷらぐら only (`dev_survey_results.md` holds members' individual answers; `handoff.md` summarizes the current state, including confidential items).
 
 Refer to members by initials (e.g. KY, IH, FT, IT) in this repository, not by full names.
 
@@ -50,6 +52,7 @@ Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `feature_di
 | `feature_discussion.md` | Feature comparison with Structured and new feature ideas, for discussion (member-facing) |
 | `alpha_spec.md` | Alpha development spec for developers: screens, logic, AI I/O, tasks, flow (member-facing; copy to the app repo to share) |
 | `app_repo_drafts/` | Drafts of files for the app repo (`app_CLAUDE.md` → `CLAUDE.md`, `app_AGENTS.md` → `AGENTS.md`, `app_README.md` → `README.md`). Member-facing. Prefixed with `app_` so they are not loaded as this repo's instructions. Keep `app_CLAUDE.md` and `app_AGENTS.md` identical except the title line |
+| `handoff.md` | Current-state summary for starting a new chat (owner-only). Read it right after this file. Update it when the state changes significantly |
 | `owner_notes.md` | Owner-only notes (confidential) |
 | `dev_survey_results.md` | Developer survey answers and analysis (owner-only) |
 | `recruit.md`, `recruitdocument.pdf`, `recruitslide.pdf` | Recruiting materials |
