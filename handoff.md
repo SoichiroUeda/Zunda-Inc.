@@ -1,6 +1,6 @@
 # 引き継ぎメモ（新しいチャット用）
 
-- **版:** v3（2026-10-26）
+- **版:** v4（2026-10-26）
 - **共有範囲:** オーナー（ぷらぐら）専用。ずんだ社など非公開の情報を含むため、メンバー向け資料にしない
 - 新しいチャットの Claude は、まず `CLAUDE.md` → このファイル → 必要に応じて `owner_notes.md`・`alpha_spec.md` の順に読むこと
 
@@ -25,7 +25,7 @@
 | アルファ週 | **10/26（月）開始、10/29（木）ごろ中間チェック、11/1（日）デモ** |
 | アプリ用リポジトリ | GitHub Organization **Rism-App** の **`Rism`**（非公開）。開発チーム **Rism-Developers**（Write 権限） |
 | main に入ったもの | FT の Flutter 雛形（`flutter create`）、IH の交渉プロンプト `docs/prompt_negotiation.md`、ぷらぐらが置いた README・CLAUDE.md・AGENTS.md・`docs/alpha_spec.md`・`.gitignore`（`dart_defines.json` を除外） |
-| Issues | GitHub の **#3〜#15**（#1・#2 は以前の PR が使用）。仕様書 8.1 も GitHub の番号に合わせた。**担当の最新は GitHub の Assignees を正とする**。#11（交渉プロンプト）は完了・閉じ済み |
+| Issues | GitHub の **#3〜#15、#17**（#1・#2・#16 は PR）。#17 が保存の処理（FT）。仕様書 8.1 も GitHub の番号に合わせた。**担当の最新は GitHub の Assignees を正とする**。#11（交渉プロンプト）は完了・閉じ済み |
 | AI | Gemini API、モデル **`gemini-3.5-flash-lite`**（2.5 系は新規プロジェクトで 404）。無料枠のみ、請求先なし。キーは 1 人 1 本（FT・IT・IH、KY 分は削除予定）、個人 LINE で配布 |
 | Claude | Claude Team（4 席：ぷらぐら・FT・IT・IH）、月払い。ぷらぐらは個人 Pro も継続し、**私用（計画用リポジトリ）は個人 Pro、アプリ用は Team** と使い分ける |
 
@@ -33,7 +33,7 @@
 
 | ファイル | 版 | メモ |
 | --- | --- | --- |
-| `alpha_spec.md` | v11 | アルファ版の仕様書。アプリ用リポジトリの `docs/alpha_spec.md` に貼り替えて共有する（**v11 への貼り替えが済んでいるか要確認**） |
+| `alpha_spec.md` | v13 | アルファ版の仕様書（v13 はぷらぐらが本文を用意）。アプリ用リポジトリの `docs/alpha_spec.md` に貼り替えて共有する（**v13 への貼り替えが済んでいるか要確認**） |
 | `owner_notes.md` | v11 | オーナー専用。ずんだ社・費用・報酬・アカウント方針・アプリ ID など |
 | `project.md` | v6 | メンバー向けの全体像。**KY の不参加・アルファ日程の変更・体制が未反映**（後述） |
 | `kickoff.md` | v4 | キックオフ資料。**同上で古い** |
@@ -53,7 +53,6 @@
 
 | 項目 | 期限・状況 |
 | --- | --- |
-| 保存の処理（`lib/storage.dart`）用の Issue を新しく作り、担当を FT にする（#6 は S1 画面のみ・IT のまま） | 至急 |
 | アプリ用リポジトリの README の「進め方・予定の相談」を開発責任者（ぷらぐら）に直す | 早めに |
 | IT の Claude Team・GitHub の連携確認（claude.ai/code で Rism-App/Rism が見えるか） | 至急 |
 | `docs/alpha_spec.md` を v9 に貼り替え（アプリ用リポジトリ） | 至急 |
