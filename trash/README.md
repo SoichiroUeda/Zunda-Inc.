@@ -58,3 +58,4 @@
 | 2026-10-26 | `2026-10-26_app_README.md` | `app_repo_drafts/app_README.md` | 相談先の開発責任者をぷらぐらに変更 | `app_repo_drafts/app_README.md` |
 | 2026-10-26 | `2026-10-26_alpha_spec_v12.md` | `alpha_spec.md` | v13 に置き換えるため（ぷらぐらが用意した本文。#16・#17 の追記、報告例・図・オーナーの役割の文言を修正） | `alpha_spec.md`（v13） |
 | 2026-10-26 | `2026-10-26_handoff_v3.md` | `handoff.md` | v4 作成のため（保存の Issue #17 作成済み、仕様書 v13） | `handoff.md`（v4） |
+| 2026-10-26 | `2026-10-26_handoff_v4.md` | `handoff.md` | v5 作成のため（済んだ未決事項 4 件を削除） | `handoff.md`（v5） |
