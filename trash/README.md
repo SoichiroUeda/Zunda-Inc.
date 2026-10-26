@@ -51,3 +51,5 @@
 | 2026-10-25 | `2026-10-25_alpha_spec_v8.md` | `alpha_spec.md` | v9 作成のため（S4 で今日／明日の固定予定を入れられるようにする） | `alpha_spec.md`（v9） |
 | 2026-10-25 | `2026-10-25_CLAUDE.md` | `CLAUDE.md` | handoff.md をオーナー専用として追加、作業ブランチを明記 | `CLAUDE.md` |
 | 2026-10-26 | `2026-10-26_alpha_spec_v9.md` | `alpha_spec.md` | v10 作成のため（Issue 番号を GitHub の #3〜#15 に合わせる、担当は GitHub を正とする、保存の処理を 1 か所にまとめる） | `alpha_spec.md`（v10） |
+| 2026-10-26 | `2026-10-26_alpha_spec_v10.md` | `alpha_spec.md` | v11 作成のため（S3・S4・完了チェックを IH の担当に変更） | `alpha_spec.md`（v11） |
+| 2026-10-26 | `2026-10-26_handoff_v1.md` | `handoff.md` | v2 作成のため（担当の変更、Issue 番号、未決事項の更新） | `handoff.md`（v2） |

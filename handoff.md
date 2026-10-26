@@ -1,6 +1,6 @@
 # 引き継ぎメモ（新しいチャット用）
 
-- **版:** v1（2026-10-25）
+- **版:** v2（2026-10-26）
 - **共有範囲:** オーナー（ぷらぐら）専用。ずんだ社など非公開の情報を含むため、メンバー向け資料にしない
 - 新しいチャットの Claude は、まず `CLAUDE.md` → このファイル → 必要に応じて `owner_notes.md`・`alpha_spec.md` の順に読むこと
 
@@ -20,12 +20,12 @@
 | 項目 | 状況 |
 | --- | --- |
 | アプリ | 睡眠を守るタスク管理アプリ **Rism**（Flutter）。京大マーケティング研究所のプロジェクト。期間は 12 月末まで |
-| 開発メンバー | FT（Mac・Flutter 経験あり・技術の相談役）、IT（Mac・未経験）、IH（Windows・AI 担当）。KY は少なくともアルファには参加しない |
+| 開発メンバー | FT（Mac・Flutter 経験あり・技術の相談役）：データの形・計算・タイムライン・slack_min。IT（Mac・未経験）：S1・S2。IH（Windows）：S3・S4・完了チェック・交渉（AI）。**10/26 に S3・S4・完了チェックを IT から IH に移した（本人承認済み）**。KY は少なくともアルファには参加しない |
 | 開発責任者 | IT の予定だったが、**IT から「未経験で一人では難しい」と連絡あり（10/25）**。役割を外す・担当を減らす・Claude Code で補助する、を提案中（返事待ち） |
 | アルファ週 | **10/26（月）開始、10/29（木）ごろ中間チェック、11/1（日）デモ** |
 | アプリ用リポジトリ | GitHub Organization **Rism-App** の **`Rism`**（非公開）。開発チーム **Rism-Developers**（Write 権限） |
 | main に入ったもの | FT の Flutter 雛形（`flutter create`）、IH の交渉プロンプト `docs/prompt_negotiation.md`、ぷらぐらが置いた README・CLAUDE.md・AGENTS.md・`docs/alpha_spec.md`・`.gitignore`（`dart_defines.json` を除外） |
-| Issues | 仕様書 8.1 の一覧をもとに、Team の Claude（Claude Code Web）で登録済み。#9（S4）には「今日／明日の切り替え」の追記を依頼済みか要確認 |
+| Issues | GitHub の **#3〜#15**（#1・#2 は以前の PR が使用）。仕様書 8.1 も GitHub の番号に合わせた。**担当の最新は GitHub の Assignees を正とする**。#11（交渉プロンプト）は完了・閉じ済み |
 | AI | Gemini API、モデル **`gemini-3.5-flash-lite`**（2.5 系は新規プロジェクトで 404）。無料枠のみ、請求先なし。キーは 1 人 1 本（FT・IT・IH、KY 分は削除予定）、個人 LINE で配布 |
 | Claude | Claude Team（4 席：ぷらぐら・FT・IT・IH）、月払い。ぷらぐらは個人 Pro も継続し、**私用（計画用リポジトリ）は個人 Pro、アプリ用は Team** と使い分ける |
 
@@ -33,7 +33,7 @@
 
 | ファイル | 版 | メモ |
 | --- | --- | --- |
-| `alpha_spec.md` | v9 | アルファ版の仕様書。アプリ用リポジトリの `docs/alpha_spec.md` に貼り替えて共有する（**v9 への貼り替えが済んでいるか要確認**） |
+| `alpha_spec.md` | v11 | アルファ版の仕様書。アプリ用リポジトリの `docs/alpha_spec.md` に貼り替えて共有する（**v11 への貼り替えが済んでいるか要確認**） |
 | `owner_notes.md` | v11 | オーナー専用。ずんだ社・費用・報酬・アカウント方針・アプリ ID など |
 | `project.md` | v6 | メンバー向けの全体像。**KY の不参加・アルファ日程の変更・体制が未反映**（後述） |
 | `kickoff.md` | v4 | キックオフ資料。**同上で古い** |
@@ -53,7 +53,8 @@
 
 | 項目 | 期限・状況 |
 | --- | --- |
-| IT の返事を受けて、開発責任者と担当（S3・S4 を FT・IH に回すか）を決め、仕様書の体制・6.1・8 章と Issue の担当者を直す | 至急 |
+| 開発責任者（進行役）を IT が続けるか、オーナーが引き取るかを確定し、仕様書の体制・8 章を直す | 至急 |
+| 保存の処理（`lib/storage.dart`）の担当を 1 人に決める（FT を提案中）。決まったら GitHub #6 の担当を付け替えるか、保存だけ別の Issue に分ける | 至急 |
 | IT の Claude Team・GitHub の連携確認（claude.ai/code で Rism-App/Rism が見えるか） | 至急 |
 | `docs/alpha_spec.md` を v9 に貼り替え（アプリ用リポジトリ） | 至急 |
 | KY のAPIキーを削除、KY を GitHub の Rism-Developers から外すか決める | 早めに |
