@@ -53,3 +53,6 @@
 | 2026-10-26 | `2026-10-26_alpha_spec_v9.md` | `alpha_spec.md` | v10 作成のため（Issue 番号を GitHub の #3〜#15 に合わせる、担当は GitHub を正とする、保存の処理を 1 か所にまとめる） | `alpha_spec.md`（v10） |
 | 2026-10-26 | `2026-10-26_alpha_spec_v10.md` | `alpha_spec.md` | v11 作成のため（S3・S4・完了チェックを IH の担当に変更） | `alpha_spec.md`（v11） |
 | 2026-10-26 | `2026-10-26_handoff_v1.md` | `handoff.md` | v2 作成のため（担当の変更、Issue 番号、未決事項の更新） | `handoff.md`（v2） |
+| 2026-10-26 | `2026-10-26_alpha_spec_v11.md` | `alpha_spec.md` | v12 作成のため（開発責任者をオーナーに、保存の処理を FT に） | `alpha_spec.md`（v12） |
+| 2026-10-26 | `2026-10-26_handoff_v2.md` | `handoff.md` | v3 作成のため（開発責任者と保存の担当の決定） | `handoff.md`（v3） |
+| 2026-10-26 | `2026-10-26_app_README.md` | `app_repo_drafts/app_README.md` | 相談先の開発責任者をぷらぐらに変更 | `app_repo_drafts/app_README.md` |
