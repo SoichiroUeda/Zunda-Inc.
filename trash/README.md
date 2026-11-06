@@ -62,3 +62,4 @@
 | 2026-10-26 | `2026-10-26_CLAUDE.md` | `CLAUDE.md` | marketing_alpha.md をファイル一覧とメンバー向け資料に追加 | `CLAUDE.md` |
 | 2026-10-26 | `2026-10-26_marketing_alpha_v1.md` | `marketing_alpha.md` | v2 作成のため（担当を MH に、優先順位を追記） | `marketing_alpha.md`（v2） |
 | 2026-10-26 | `2026-10-26_handoff_v5.md` | `handoff.md` | v6 作成のため（マーケティング担当 MH、UX/UI は FT 兼任の申し出） | `handoff.md`（v6） |
+| 2026-11-06 | `2026-11-06_CLAUDE.md` | `CLAUDE.md` | beta_invite.md・beta_agreement.md をファイル一覧とメンバー向け資料に追加 | `CLAUDE.md` |
