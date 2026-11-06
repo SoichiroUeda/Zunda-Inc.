@@ -69,3 +69,4 @@
 | 2026-11-06 | `2026-11-06_beta_agreement_v2.md` | `beta_agreement.md` | v3 作成のため（期限 12/7 確定） | `beta_agreement.md`（v3） |
 | 2026-11-06 | `2026-11-06_beta_invite_v3.md` | `beta_invite.md` | v4 作成のため（「続けるか」を「参加するか」に、AI ツールを Claude Code に限らない書き方に） | `beta_invite.md`（v4） |
 | 2026-11-06 | `2026-11-06_beta_agreement_v3.md` | `beta_agreement.md` | v4 作成のため（共有範囲を「参加すると返事をくれた」に） | `beta_agreement.md`（v4） |
+| 2026-11-06 | `2026-11-06_beta_invite_v4.md` | `beta_invite.md` | v5 作成のため（オーナーが負担するのは Claude Code のみ、ほかの AI ツールは自分の契約で使ってよいと明記） | `beta_invite.md`（v5） |
