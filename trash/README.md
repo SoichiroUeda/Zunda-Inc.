@@ -65,3 +65,5 @@
 | 2026-11-06 | `2026-11-06_CLAUDE.md` | `CLAUDE.md` | beta_invite.md・beta_agreement.md をファイル一覧とメンバー向け資料に追加 | `CLAUDE.md` |
 | 2026-11-06 | `2026-11-06_beta_invite_v1.md` | `beta_invite.md` | v2 作成のため（謝礼をベータ配布の条件付きに、支払い方法を記入） | `beta_invite.md`（v2） |
 | 2026-11-06 | `2026-11-06_beta_agreement_v1.md` | `beta_agreement.md` | v2 作成のため（謝礼をベータ配布の条件付きに、支払い方法を記入、「ほかに支払いなし」を削除） | `beta_agreement.md`（v2） |
+| 2026-11-06 | `2026-11-06_beta_invite_v2.md` | `beta_invite.md` | v3 作成のため（期限 12/7 確定、共有範囲、Android 担当を追加、休む連絡と「1 枚」を削除、詰まったらまず AI に） | `beta_invite.md`（v3） |
+| 2026-11-06 | `2026-11-06_beta_agreement_v2.md` | `beta_agreement.md` | v3 作成のため（期限 12/7 確定） | `beta_agreement.md`（v3） |
