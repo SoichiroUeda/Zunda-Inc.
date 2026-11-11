@@ -76,3 +76,6 @@
 | 2026-11-11 | `2026-11-11_handoff_v8.md` | `handoff.md` | v9 作成のため（Firebase の設定・Gemini の有料キーと Secret Manager・Apple の手続き中を記録） | `handoff.md`（v9） |
 | 2026-11-11 | `2026-11-11_beta_spec_v1.md` | `beta_spec.md` | v2 作成のため（リポジトリ Claude の確認結果とオーナーの決定を反映） | `beta_spec.md`（v2） |
 | 2026-11-11 | `2026-11-11_handoff_v9.md` | `handoff.md` | v10 作成のため（ベータの仕様の決定、FT の同意、リポジトリ名が渡った件と防ぎ方） | `handoff.md`（v10） |
+| 2026-11-11 | `2026-11-11_beta_spec_v2.md` | `beta_spec.md` | v3 作成のため（リポジトリ Claude の 2 回目の確認結果と、同意書の文面・キー・データの削除・問い合わせ先の決定を反映） | `beta_spec.md`（v3） |
+| 2026-11-11 | `2026-11-11_handoff_v10.md` | `handoff.md` | v11 作成のため（仕様書 v3、同意書の下書き、11/11 の決定） | `handoff.md`（v11） |
+| 2026-11-11 | `2026-11-11_CLAUDE_2.md` | `CLAUDE.md` | beta_consent_draft.md をファイル一覧とメンバー向け資料に追加 | `CLAUDE.md` |

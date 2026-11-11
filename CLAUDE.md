@@ -35,7 +35,7 @@ Refer to members by initials (e.g. KY, IH, FT, IT) in this repository, not by fu
 - The owner pays for paid AI tools (Claude Code etc.) used for the project
 - The owner may lend MacBooks for development
 
-Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `feature_discussion.md`, `alpha_spec.md`, `marketing_alpha.md`, `beta_invite.md`, `beta_agreement.md`, `beta_spec.md`, `app_repo_drafts/`, `recruit*`, and anything written for project members or for the app's codebase. If unsure whether something is member-facing, ask.
+Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `feature_discussion.md`, `alpha_spec.md`, `marketing_alpha.md`, `beta_invite.md`, `beta_agreement.md`, `beta_spec.md`, `beta_consent_draft.md`, `app_repo_drafts/`, `recruit*`, and anything written for project members or for the app's codebase. If unsure whether something is member-facing, ask.
 
 ## Rule 3: Source priority
 
@@ -55,6 +55,7 @@ Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `feature_di
 | `beta_invite.md` | Beta invitation: goals, schedule, roles, reward conditions, what to reply. Given to members when asking whether they continue (member-facing) |
 | `beta_agreement.md` | One-page agreement for members who continue into the beta: reward, rights to deliverables, confidentiality, leaving (member-facing) |
 | `beta_spec.md` | Beta development spec for developers: what to build, owners, schedule, data, rules (member-facing; copy to the app repo to share) |
+| `beta_consent_draft.md` | Draft of the beta consent text (S0 screen), consent form, and privacy policy for testers (member-facing; IH checks the technical parts, then it goes to the app repo's `hosting/public/privacy.html`) |
 | `app_repo_drafts/` | Drafts of files for the app repo (`app_CLAUDE.md` → `CLAUDE.md`, `app_AGENTS.md` → `AGENTS.md`, `app_README.md` → `README.md`). Member-facing. Prefixed with `app_` so they are not loaded as this repo's instructions. Keep `app_CLAUDE.md` and `app_AGENTS.md` identical except the title line |
 | `handoff.md` | Current-state summary for starting a new chat (owner-only). Read it right after this file. Update it when the state changes significantly |
 | `owner_notes.md` | Owner-only notes (confidential) |
