@@ -1,6 +1,6 @@
 # 引き継ぎメモ（新しいチャット用）
 
-- **版:** v13（2026-11-11）
+- **版:** v14（2026-11-11）
 - **共有範囲:** オーナー（ぷらぐら）専用。ずんだ社など非公開の情報を含むため、メンバー向け資料にしない
 - 新しいチャットの Claude は、まず `CLAUDE.md` → このファイル → 必要に応じて `beta_spec.md`・`owner_notes.md`・`alpha_spec.md` の順に読むこと
 
@@ -93,7 +93,7 @@
 | Apple Developer Program に登録し、`app.rism.rism` を登録 | 手続き中（11/11〜）。承認されたら Identifiers に登録し、FT に伝える |
 | Firebase：FT を招待し、プロジェクト ID と `GEMINI_API_KEY` の名前を FT・IH に伝える | 文面は作成済み（11/11）。FT の招待が済んだら送る |
 | Firebase が作るキー（`auto created by Firebase`）の使い道を確かめ、Gemini API を外す | FT が `flutterfire configure` をしたあと |
-| Gemini API の 1 日の回数に上限を付ける（Google Cloud の割り当て） | すぐ |
+| Gemini API の 1 日の回数に上限を付ける（Google Cloud の割り当て） | **やらないことにした**（11/11）。GenerateContent の割り当てに 1 日・1 分あたりの行がなく、決めにくかったため。Cloud Functions の上限（1 人 20 回・全員 500 回）と予算アラートで守る |
 | Rism リポジトリの `CLAUDE.md`・`AGENTS.md`・`README.md` をベータ用にし、`docs/beta_spec.md` を置く（P1）。Issue #14・#15 と作業用ブランチの片付け（Issue #13 は PR #42 のマージのあと） | 仕様書 v3 が決まったら、リポジトリ Claude に頼む |
 | App Store Connect にアプリを作り（名前「Rism」が使えるか）、内部テスターを入れる | Apple の登録のあと、11/16 まで |
 | 京大マーケ幹部への団体ルールの確認 | **了承を得た**（11/11）。了承の範囲（特に、将来一般に公開するときに京大マーケの名前やテストの結果を紹介に使うこと）は未確認。`owner_notes.md` 6 章も未更新 |

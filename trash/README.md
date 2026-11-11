@@ -83,3 +83,4 @@
 | 2026-11-11 | `2026-11-11_handoff_v11.md` | `handoff.md` | v12 作成のため（IT・KY のキー削除済み、Gmail 作成済み、リポジトリ Claude に依頼済み） | `handoff.md`（v12） |
 | 2026-11-11 | `2026-11-11_beta_consent_draft_v2.md` | `beta_consent_draft.md` | v3 作成のため（【要確認】をおすすめどおりに記入、京大マーケの名前は幹部の了承を得た） | `beta_consent_draft.md`（v3） |
 | 2026-11-11 | `2026-11-11_handoff_v12.md` | `handoff.md` | v13 作成のため（幹部の了承、同意書の下書き v3） | `handoff.md`（v13） |
+| 2026-11-11 | `2026-11-11_handoff_v13.md` | `handoff.md` | v14 作成のため（Gemini の割り当ては設定しないことにした） | `handoff.md`（v14） |
