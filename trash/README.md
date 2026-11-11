@@ -87,3 +87,4 @@
 | 2026-11-11 | `2026-11-11_beta_spec_v3.md` | `beta_spec.md` | v4 作成のため（PR #43 で挙がった抜け 3 つ、問い合わせ先とプライバシーポリシーの URL、下書きを外す） | `beta_spec.md`（v4） |
 | 2026-11-11 | `2026-11-11_handoff_v14.md` | `handoff.md` | v15 作成のため（PR #43、仕様書 v4、FT・IH の Firebase 招待） | `handoff.md`（v15） |
 | 2026-11-11 | `2026-11-11_handoff_v15.md` | `handoff.md` | v16 作成のため（Secret Manager の件を送付済み、PR #43 の差し替え済み、IK の招待中） | `handoff.md`（v16） |
+| 2026-11-11 | `2026-11-11_handoff_v16.md` | `handoff.md` | v17 作成のため（PR #43 マージ済み、PR #42 の扱い） | `handoff.md`（v17） |
