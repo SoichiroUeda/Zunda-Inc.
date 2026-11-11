@@ -70,3 +70,5 @@
 | 2026-11-06 | `2026-11-06_beta_invite_v3.md` | `beta_invite.md` | v4 作成のため（「続けるか」を「参加するか」に、AI ツールを Claude Code に限らない書き方に） | `beta_invite.md`（v4） |
 | 2026-11-06 | `2026-11-06_beta_agreement_v3.md` | `beta_agreement.md` | v4 作成のため（共有範囲を「参加すると返事をくれた」に） | `beta_agreement.md`（v4） |
 | 2026-11-06 | `2026-11-06_beta_invite_v4.md` | `beta_invite.md` | v5 作成のため（オーナーが負担するのは Claude Code のみ、ほかの AI ツールは自分の契約で使ってよいと明記） | `beta_invite.md`（v5） |
+| 2026-11-11 | `2026-11-11_handoff_v6.md` | `handoff.md` | v7 作成のため（ベータ開始後の体制・決定・やることに更新） | `handoff.md`（v7） |
+| 2026-11-11 | `2026-11-11_CLAUDE.md` | `CLAUDE.md` | 作業ブランチを claude/gallant-keller-2fl9wv に、beta_spec.md を追加 | `CLAUDE.md` |
