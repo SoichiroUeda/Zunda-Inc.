@@ -79,3 +79,5 @@
 | 2026-11-11 | `2026-11-11_beta_spec_v2.md` | `beta_spec.md` | v3 作成のため（リポジトリ Claude の 2 回目の確認結果と、同意書の文面・キー・データの削除・問い合わせ先の決定を反映） | `beta_spec.md`（v3） |
 | 2026-11-11 | `2026-11-11_handoff_v10.md` | `handoff.md` | v11 作成のため（仕様書 v3、同意書の下書き、11/11 の決定） | `handoff.md`（v11） |
 | 2026-11-11 | `2026-11-11_CLAUDE_2.md` | `CLAUDE.md` | beta_consent_draft.md をファイル一覧とメンバー向け資料に追加 | `CLAUDE.md` |
+| 2026-11-11 | `2026-11-11_beta_consent_draft_v1.md` | `beta_consent_draft.md` | v2 作成のため（問い合わせ先の Gmail を記入） | `beta_consent_draft.md`（v2） |
+| 2026-11-11 | `2026-11-11_handoff_v11.md` | `handoff.md` | v12 作成のため（IT・KY のキー削除済み、Gmail 作成済み、リポジトリ Claude に依頼済み） | `handoff.md`（v12） |
