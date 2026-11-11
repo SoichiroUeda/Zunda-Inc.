@@ -74,3 +74,5 @@
 | 2026-11-11 | `2026-11-11_CLAUDE.md` | `CLAUDE.md` | 作業ブランチを claude/gallant-keller-2fl9wv に、beta_spec.md を追加 | `CLAUDE.md` |
 | 2026-11-11 | `2026-11-11_handoff_v7.md` | `handoff.md` | v8 作成のため（取り決めは直さない決定、FT・MH への同意確認は送付済み、MH への文面作成） | `handoff.md`（v8） |
 | 2026-11-11 | `2026-11-11_handoff_v8.md` | `handoff.md` | v9 作成のため（Firebase の設定・Gemini の有料キーと Secret Manager・Apple の手続き中を記録） | `handoff.md`（v9） |
+| 2026-11-11 | `2026-11-11_beta_spec_v1.md` | `beta_spec.md` | v2 作成のため（リポジトリ Claude の確認結果とオーナーの決定を反映） | `beta_spec.md`（v2） |
+| 2026-11-11 | `2026-11-11_handoff_v9.md` | `handoff.md` | v10 作成のため（ベータの仕様の決定、FT の同意、リポジトリ名が渡った件と防ぎ方） | `handoff.md`（v10） |
