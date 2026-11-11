@@ -1,6 +1,6 @@
 # 引き継ぎメモ（新しいチャット用）
 
-- **版:** v15（2026-11-11）
+- **版:** v16（2026-11-11）
 - **共有範囲:** オーナー（ぷらぐら）専用。ずんだ社など非公開の情報を含むため、メンバー向け資料にしない
 - 新しいチャットの Claude は、まず `CLAUDE.md` → このファイル → 必要に応じて `beta_spec.md`・`owner_notes.md`・`alpha_spec.md` の順に読むこと
 
@@ -91,7 +91,7 @@
 | 項目 | 期限・状況 |
 | --- | --- |
 | Apple Developer Program に登録し、`app.rism.rism` を登録 | 手続き中（11/11〜）。承認されたら Identifiers に登録し、FT に伝える |
-| Firebase：FT を招待し、プロジェクト ID と `GEMINI_API_KEY` の名前を FT・IH に伝える | FT・IH は招待済み（11/11）。IK を招待したかは未確認。Secret Manager の件の文面を送ったかは未確認 |
+| Firebase：FT を招待し、プロジェクト ID と `GEMINI_API_KEY` の名前を FT・IH に伝える | FT・IH は招待済み、Secret Manager の件も LINE で送付済み（11/11）。IK を Firebase に招待したかは未確認 |
 | Firebase が作るキー（`auto created by Firebase`）の使い道を確かめ、Gemini API を外す | FT が `flutterfire configure` をしたあと |
 | Gemini API の 1 日の回数に上限を付ける（Google Cloud の割り当て） | **やらないことにした**（11/11）。GenerateContent の割り当てに 1 日・1 分あたりの行がなく、決めにくかったため。Cloud Functions の上限（1 人 20 回・全員 500 回）と予算アラートで守る |
 | Rism リポジトリの `CLAUDE.md`・`AGENTS.md`・`README.md` をベータ用にし、`docs/beta_spec.md` を置く（P1）。Issue #14・#15 と作業用ブランチの片付け（Issue #13 は PR #42 のマージのあと） | 仕様書 v3 が決まったら、リポジトリ Claude に頼む |
@@ -101,9 +101,9 @@
 | IT への確認（アルファで作ったものの権利）、Claude Team の席・Gemini キー・GitHub の権限を外す | まだ |
 | IT・KY のアルファの Gemini キーを消す（Google Cloud の `rism-app-alpha`） | **済**（11/11） |
 | プロジェクト用の Gmail を作る | **済**（11/11）：`rism.app.68j@gmail.com`。`beta_consent_draft.md` v2 に入れた。TestFlight のテスト情報、S1 のリンクにも使う |
-| P1：仕様書を置き、指示書をベータ用にする | **Rism-App/Rism の PR #43**（11/11）。中身は依頼どおり。`docs/beta_spec.md` を v4 に差し替えてもらってから、自動チェックが通ればぷらぐらがマージ |
+| P1：仕様書を置き、指示書をベータ用にする | **Rism-App/Rism の PR #43**（11/11）。中身は依頼どおり。`docs/beta_spec.md` を v4 に差し替え済み（11/11）。自動チェックが通ればぷらぐらがマージ |
 | Issue の登録 | PR #43 のマージのあと、リポジトリ Claude に頼む（案は 30 個、11/11 にもらった。ラベル `beta`・マイルストーン「ベータ配布（11/30）」・担当つき）。IK の GitHub のユーザー名が要る |
-| IK を GitHub の Rism-Developers と Claude Team に招待（IT の席を回す） | 未確認 |
+| IK を GitHub の Rism-Developers と Claude Team に招待（IT の席を回す） | 11/11 に Claude Team の招待と、GitHub のユーザー名の確認を送付中 |
 | MH に Claude Team の席とリポジトリ（読むだけの権限）が要るか聞く。あわせて「測るもの」の案と、人ごとに比べるか（11/13 まで）を LINE で依頼 | 文面は作成済み（11/11） |
 | Android の実機で確かめる人・端末を決める | 11/23 まで |
 | 同意書・プライバシーポリシーの【要確認】を埋め、IH に技術の部分を確認してもらう | 11/20 |
