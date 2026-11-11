@@ -1,6 +1,6 @@
 # 引き継ぎメモ（新しいチャット用）
 
-- **版:** v8（2026-11-11）
+- **版:** v9（2026-11-11）
 - **共有範囲:** オーナー（ぷらぐら）専用。ずんだ社など非公開の情報を含むため、メンバー向け資料にしない
 - 新しいチャットの Claude は、まず `CLAUDE.md` → このファイル → 必要に応じて `beta_spec.md`・`owner_notes.md`・`alpha_spec.md` の順に読むこと
 
@@ -24,7 +24,8 @@
 | アルファ | **11/1 デモ成功**（仕様書 1.1 の 7 項目すべて）。仕様書は v17。テスト 92 件、PR ごとに `flutter analyze`・`flutter test` を自動で流す |
 | ベータ | **11/9（月）開始**。11/22 機能追加の締め切り、11/25 TestFlight 審査提出、**11/30 配布**。間に合わなければ 12/7 |
 | 開発責任者 | ぷらぐら（オーナー）が兼任。作り方の判断は FT（技術の相談役） |
-| AI | Gemini `gemini-3.5-flash-lite`。アルファは無料枠。**ベータは有料の設定＋Cloud Functions 経由**（`beta_spec.md` 3.6） |
+| AI | Gemini `gemini-3.5-flash-lite`。アルファは無料枠（Google Cloud プロジェクト `rism-app-alpha`。開発の試しにテスト用データだけで使い続ける）。**ベータは有料の設定＋Cloud Functions 経由**（`beta_spec.md` 3.6） |
+| Firebase | **11/11 に作成**。プロジェクト名 `Rism`、ID は `rism-` で始まり末尾がランダムな文字列（そのまま採用。秘密ではないので共有してよい）。詳しくは 4.1 |
 | Claude | Claude Team（月払い）。IT の席を外して IK に回す予定。MH も利用を検討中 |
 
 ### 2.1 メンバー（ベータ）
@@ -60,13 +61,24 @@
 - **Apple Developer Program：** 個人（Individual）で登録する。開発者名にはぷらぐらの本名が出る（会社名は出ない）。
 - **同意書・プライバシーポリシー：** IH が担当、IK が手伝う。11/20 まで。
 
+### 4.1 Firebase の設定（11/11）
+
+| 項目 | 設定 |
+| --- | --- |
+| Google アナリティクス・Google デベロッパー プログラム・Gemini in Firebase | すべてオフ（Gemini in Firebase は入力が学習に使われることがあるため） |
+| プラン | **Blaze（従量課金）** |
+| 予算アラート | **月 3,000 円**（Google Cloud の「予算とアラート」）。通知だけで課金は止まらない。50 ドル相当（約 7,500 円）の予算を足すかは未定 |
+| Firestore | Standard、ID `(default)`、場所 **`asia-northeast1`（東京）**、本番環境モード（ルールは FT が書く）、バックアップ毎日・7 日保持 |
+| Authentication | 匿名ログインを有効化 |
+| メンバー | 編集者として招待。**FT はメールアドレス待ちで未招待**（プロジェクト ID もまだ伝えていない） |
+| Gemini のキー | AI Studio で Firebase のプロジェクトを読み込んで作成（有料の扱い）。Secret Manager に **`GEMINI_API_KEY`** として保存。API の制限は Gemini API のみ、アプリケーションの制限はなし（Cloud Functions から使うため） |
+
 ## 5. やること
 
 | 項目 | 期限・状況 |
 | --- | --- |
-| Apple Developer Program に登録し、`app.rism.rism` を登録 | 期限の 11/8 を過ぎた。**すぐ** |
-| Firebase プロジェクトを作り、従量課金と予算アラートを設定、開発メンバーを招待 | まだ。**すぐ** |
-| Gemini を有料の設定に（予算アラートつき） | 11/13 |
+| Apple Developer Program に登録し、`app.rism.rism` を登録 | 手続き中（11/11〜）。承認されたら Identifiers に登録し、FT に伝える |
+| Firebase：FT を招待し、プロジェクト ID と `GEMINI_API_KEY` の名前を FT・IH に伝える | FT のメールアドレス待ち（ほかは 11/11 に済み。4.1） |
 | 京大マーケ幹部への団体ルールの確認 | まだ。テスター募集の前に必要 |
 | FT・MH の取り決めの同意 | 確認を送付済み。返事待ち |
 | IT への確認（アルファで作ったものの権利）、Claude Team の席・Gemini キー・GitHub の権限を外す | まだ |
