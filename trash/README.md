@@ -93,3 +93,4 @@
 | 2026-11-12 | `2026-11-12_handoff_v19.md` | `handoff.md` | v20 作成のため（IK の招待と担当の済み、IK にキーを渡さないこと、IT の権限の外し方） | `handoff.md`（v20） |
 | 2026-11-12 | `2026-11-12_handoff_v20.md` | `handoff.md` | v21 作成のため（IT への確認の送付と、権限を外したこと） | `handoff.md`（v21） |
 | 2026-11-12 | `2026-11-12_handoff_v21.md` | `handoff.md` | v22 作成のため（Apple の登録のメール、Firebase のキーの制限済み、README の PR 済み） | `handoff.md`（v22） |
+| 2026-11-12 | `2026-11-12_handoff_v22.md` | `handoff.md` | v23 作成のため（Apple の承認、`app.rism.rism` の登録で ID が確定） | `handoff.md`（v23） |
