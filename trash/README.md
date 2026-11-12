@@ -90,3 +90,4 @@
 | 2026-11-11 | `2026-11-11_handoff_v16.md` | `handoff.md` | v17 作成のため（PR #43 マージ済み、PR #42 の扱い） | `handoff.md`（v17） |
 | 2026-11-11 | `2026-11-11_handoff_v17.md` | `handoff.md` | v18 作成のため（Issue #44〜#72 の登録、PR #42 マージ済み、FT への依頼済み） | `handoff.md`（v18） |
 | 2026-11-11 | `2026-11-11_handoff_v18.md` | `handoff.md` | v19 作成のため（ベータの案内へのメンバーの返事、IK のアンケートの答え、最初の一歩） | `handoff.md`（v19） |
+| 2026-11-12 | `2026-11-12_handoff_v19.md` | `handoff.md` | v20 作成のため（IK の招待と担当の済み、IK にキーを渡さないこと、IT の権限の外し方） | `handoff.md`（v20） |
