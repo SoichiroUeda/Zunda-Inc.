@@ -1,6 +1,6 @@
 # 引き継ぎメモ（新しいチャット用）
 
-- **版:** v21（2026-11-12）
+- **版:** v22（2026-11-12）
 - **共有範囲:** オーナー（ぷらぐら）専用。ずんだ社など非公開の情報を含むため、メンバー向け資料にしない
 - 新しいチャットの Claude は、まず `CLAUDE.md` → このファイル → 必要に応じて `beta_spec.md`・`owner_notes.md`・`alpha_spec.md` の順に読むこと
 
@@ -90,12 +90,12 @@
 
 | 項目 | 期限・状況 |
 | --- | --- |
-| Apple Developer Program に登録し、`app.rism.rism` を登録 | 手続き中（11/11〜）。承認されたら Identifiers に登録し、FT に伝える |
+| Apple Developer Program に登録し、`app.rism.rism` を登録 | **Apple から「ご登録いただきありがとうございます」のメール（11/12）**。承認済みかを developer.apple.com の「アカウント」で確かめ、Identifiers に `app.rism.rism` を登録して FT に知らせる。年会費は支払い台帳に書く |
 | Firebase：FT を招待し、プロジェクト ID と `GEMINI_API_KEY` の名前を FT・IH に伝える | FT・IH は招待済み、Secret Manager の件も LINE で送付済み（11/11）。IK を Firebase に招待したかは未確認 |
-| Firebase が作るキー（`auto created by Firebase`）の使い道を確かめ、Gemini API を外す | FT が `flutterfire configure` をしたあと |
+| Firebase が作るキー（`auto created by Firebase`）の使い道を確かめ、Gemini API を外す | **済（11/12）**。FT が `flutterfire configure` を実行したあとに外した |
 | Gemini API の 1 日の回数に上限を付ける（Google Cloud の割り当て） | **やらないことにした**（11/11）。GenerateContent の割り当てに 1 日・1 分あたりの行がなく、決めにくかったため。Cloud Functions の上限（1 人 20 回・全員 500 回）と予算アラートで守る |
 | Rism リポジトリの `CLAUDE.md`・`AGENTS.md`・`README.md` をベータ用にし、`docs/beta_spec.md` を置く（P1）。Issue #14・#15 と作業用ブランチの片付け（Issue #13 は PR #42 のマージのあと） | 仕様書 v3 が決まったら、リポジトリ Claude に頼む |
-| App Store Connect にアプリを作り（名前「Rism」が使えるか）、内部テスターを入れる | Apple の登録のあと、11/16 まで |
+| App Store Connect にアプリを作り（名前「Rism」が使えるか）、FT をユーザーに招待し、内部テスターを入れる。Firebase App Distribution にメンバーのグループを作る | 11/16 まで（11/18 ごろの最初の配布のため） |
 | 京大マーケ幹部への団体ルールの確認 | **了承を得た**（11/11）。了承の範囲（特に、将来一般に公開するときに京大マーケの名前やテストの結果を紹介に使うこと）は未確認。`owner_notes.md` 6 章も未更新 |
 | FT・MH の取り決めの同意 | 確認を送付済み。返事待ち |
 | IT への確認（アルファで作ったものの権利）、Claude Team の席・GitHub の権限を外す | **確認の LINE を送付済み、Rism-App の組織と Claude Team から外した（11/12）**。Gemini キーも削除済み。IT からの同意の返事は待ち |
@@ -104,7 +104,7 @@
 | P1：仕様書を置き、指示書をベータ用にする | **Rism-App/Rism の PR #43**（11/11）。**マージ済み（11/11）**。`docs/beta_spec.md` は v4。B2・B5・P2 が終わったら、`CLAUDE.md`・`AGENTS.md` の「作り替えの途中であること」の該当行を消す |
 | PR #42（交渉の直し、IH） | **ぷらぐらがマージ済み（11/11）** |
 | Issue の登録 | **済（11/11）：Issue #44〜#72 の 29 個**、ラベル `beta`、担当つき。IK の 5 個（#47 片付け・#49 S3・S4 の削除ボタン・#60 S0・#61 設定画面・#68 S6）は担当が空いている（IK のユーザー名待ち）。**マイルストーン「ベータ配布（11/30）」はまだない**（リポジトリ Claude は作れない。ぷらぐらが作って一括で付ける）。Issue #13〜#15 は閉じた。作業用のブランチ 18 本は権限で消せず、ぷらぐらが消す |
-| IK を GitHub の Rism-Developers と Claude Team に招待（IT の席を回す） | **済（11/12）**。IK の 5 個の Issue にも担当を付けた。IK は道具の準備中。**IK にはアルファの API キーを渡さない**（README の `dart_defines.json` の手順は飛ばし、`flutter run` だけで動かす。README に一言足す PR をリポジトリ Claude に頼む案を出した） |
+| IK を GitHub の Rism-Developers と Claude Team に招待（IT の席を回す） | **済（11/12）**。IK の 5 個の Issue にも担当を付けた。IK は道具の準備中。**IK にはアルファの API キーを渡さない**（README の `dart_defines.json` の手順は飛ばし、`flutter run` だけで動かす。README に一言足す PR は済み・11/12） |
 | FT への依頼（P2〜P4） | 11/11 に LINE で送付済み |
 | 同意書の下書き（`beta_consent_draft.md` v3）を IH に送り、技術の部分を確認してもらう（Issue #58） | まだ |
 | MH に Claude Team の席とリポジトリ（読むだけの権限）が要るか聞く。あわせて「測るもの」の案と、人ごとに比べるか（11/13 まで）を LINE で依頼 | 文面は作成済み（11/11） |
