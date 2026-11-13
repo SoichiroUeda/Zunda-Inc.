@@ -97,3 +97,6 @@
 | 2026-11-13 | `2026-11-13_beta_spec_v4.md` | `beta_spec.md` | v5 作成のため（MH の測るものの案をもとに決定：目覚め 5 段階、人ごとに比べるテスター番号 B10、CSV の列、Android の実機は IK） | `beta_spec.md`（v5） |
 | 2026-11-13 | `2026-11-13_beta_consent_draft_v3.md` | `beta_consent_draft.md` | v4 作成のため（テスター番号、使う前の記録とアンケート、募集のときの情報、対応表の扱い、目覚め 5 段階） | `beta_consent_draft.md`（v4） |
 | 2026-11-13 | `2026-11-13_handoff_v23.md` | `handoff.md` | v24 作成のため（測るものの決定、仕様書 v5、同意書 v4、marketing_beta.md） | `handoff.md`（v24） |
+| 2026-11-13 | `2026-11-13_beta_consent_draft_v4.md` | `beta_consent_draft.md` | v5 作成のため（リポジトリ Claude の v4 と、こちらの v4 をまとめた） | `beta_consent_draft.md`（v5） |
+| 2026-11-13 | `2026-11-13_beta_consent_draft_v4_rism.md` | （Rism リポジトリの同意書の PR） | リポジトリ Claude が 11/12 に作った v4 の控え。v5 の元にした | `beta_consent_draft.md`（v5） |
+| 2026-11-13 | `2026-11-13_handoff_v24.md` | `handoff.md` | v25 作成のため（同意書 v5 をリポジトリ Claude の v4 とまとめて作成） | `handoff.md`（v25） |
