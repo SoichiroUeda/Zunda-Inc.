@@ -94,3 +94,6 @@
 | 2026-11-12 | `2026-11-12_handoff_v20.md` | `handoff.md` | v21 作成のため（IT への確認の送付と、権限を外したこと） | `handoff.md`（v21） |
 | 2026-11-12 | `2026-11-12_handoff_v21.md` | `handoff.md` | v22 作成のため（Apple の登録のメール、Firebase のキーの制限済み、README の PR 済み） | `handoff.md`（v22） |
 | 2026-11-12 | `2026-11-12_handoff_v22.md` | `handoff.md` | v23 作成のため（Apple の承認、`app.rism.rism` の登録で ID が確定） | `handoff.md`（v23） |
+| 2026-11-13 | `2026-11-13_beta_spec_v4.md` | `beta_spec.md` | v5 作成のため（MH の測るものの案をもとに決定：目覚め 5 段階、人ごとに比べるテスター番号 B10、CSV の列、Android の実機は IK） | `beta_spec.md`（v5） |
+| 2026-11-13 | `2026-11-13_beta_consent_draft_v3.md` | `beta_consent_draft.md` | v4 作成のため（テスター番号、使う前の記録とアンケート、募集のときの情報、対応表の扱い、目覚め 5 段階） | `beta_consent_draft.md`（v4） |
+| 2026-11-13 | `2026-11-13_handoff_v23.md` | `handoff.md` | v24 作成のため（測るものの決定、仕様書 v5、同意書 v4、marketing_beta.md） | `handoff.md`（v24） |
