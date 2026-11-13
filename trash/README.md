@@ -100,3 +100,5 @@
 | 2026-11-13 | `2026-11-13_beta_consent_draft_v4.md` | `beta_consent_draft.md` | v5 作成のため（リポジトリ Claude の v4 と、こちらの v4 をまとめた） | `beta_consent_draft.md`（v5） |
 | 2026-11-13 | `2026-11-13_beta_consent_draft_v4_rism.md` | （Rism リポジトリの同意書の PR） | リポジトリ Claude が 11/12 に作った v4 の控え。v5 の元にした | `beta_consent_draft.md`（v5） |
 | 2026-11-13 | `2026-11-13_handoff_v24.md` | `handoff.md` | v25 作成のため（同意書 v5 をリポジトリ Claude の v4 とまとめて作成） | `handoff.md`（v25） |
+| 2026-11-13 | `2026-11-13_beta_consent_draft_v5.md` | `beta_consent_draft.md` | v6 作成のため（運営者の欄を Rism 側の v4 の表記に戻す：ぷらぐら決定） | `beta_consent_draft.md`（v6） |
+| 2026-11-13 | `2026-11-13_handoff_v25.md` | `handoff.md` | v26 作成のため（同意書 v6：運営者の欄を戻す） | `handoff.md`（v26） |
