@@ -103,3 +103,5 @@
 | 2026-11-13 | `2026-11-13_beta_consent_draft_v5.md` | `beta_consent_draft.md` | v6 作成のため（運営者の欄を Rism 側の v4 の表記に戻す：ぷらぐら決定） | `beta_consent_draft.md`（v6） |
 | 2026-11-13 | `2026-11-13_handoff_v25.md` | `handoff.md` | v26 作成のため（同意書 v6：運営者の欄を戻す） | `handoff.md`（v26） |
 | 2026-11-14 | `2026-11-14_handoff_v26.md` | `handoff.md` | v27 作成のため（IK の Issue の前提と FT の PR の状況、同意書の PR の番号） | `handoff.md`（v27） |
+| 2026-11-14 | `2026-11-14_CLAUDE.md` | `CLAUDE.md` | beta_recruit_draft.md をファイル一覧とメンバー向け資料に追加 | `CLAUDE.md` |
+| 2026-11-14 | `2026-11-14_handoff_v27.md` | `handoff.md` | v28 作成のため（テスター募集の文面の下書き） | `handoff.md`（v28） |
