@@ -102,3 +102,4 @@
 | 2026-11-13 | `2026-11-13_handoff_v24.md` | `handoff.md` | v25 作成のため（同意書 v5 をリポジトリ Claude の v4 とまとめて作成） | `handoff.md`（v25） |
 | 2026-11-13 | `2026-11-13_beta_consent_draft_v5.md` | `beta_consent_draft.md` | v6 作成のため（運営者の欄を Rism 側の v4 の表記に戻す：ぷらぐら決定） | `beta_consent_draft.md`（v6） |
 | 2026-11-13 | `2026-11-13_handoff_v25.md` | `handoff.md` | v26 作成のため（同意書 v6：運営者の欄を戻す） | `handoff.md`（v26） |
+| 2026-11-14 | `2026-11-14_handoff_v26.md` | `handoff.md` | v27 作成のため（IK の Issue の前提と FT の PR の状況、同意書の PR の番号） | `handoff.md`（v27） |
