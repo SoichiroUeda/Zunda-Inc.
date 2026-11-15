@@ -63,6 +63,7 @@ Member-facing material: `project.md`, `dev_survey.md`, `kickoff.md`, `feature_di
 | `dev_survey_results.md` | Developer survey answers and analysis (owner-only) |
 | `recruit.md`, `recruitdocument.pdf`, `recruitslide.pdf` | Recruiting materials |
 | `share/` | PDFs for members, generated from `project.md` and `kickoff.md` (kickoff's owner checklist is left out) |
+| `scripts/beta_tester_mail.gs` | Google Apps Script the owner pastes into the beta application form's response sheet: assigns 3-digit tester numbers and emails each applicant from the project Gmail (steps in `beta_recruit_draft.md` 5). No tester data in the repo |
 | `scripts/build_share_pdfs.mjs` | Builds `share/`. Run: `NODE_PATH=/opt/node-tools/node_modules node scripts/build_share_pdfs.mjs` |
 | `trash/` | Old versions and retired files. See `trash/README.md` |
 

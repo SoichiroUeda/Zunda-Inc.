@@ -105,3 +105,8 @@
 | 2026-11-14 | `2026-11-14_handoff_v26.md` | `handoff.md` | v27 作成のため（IK の Issue の前提と FT の PR の状況、同意書の PR の番号） | `handoff.md`（v27） |
 | 2026-11-14 | `2026-11-14_CLAUDE.md` | `CLAUDE.md` | beta_recruit_draft.md をファイル一覧とメンバー向け資料に追加 | `CLAUDE.md` |
 | 2026-11-14 | `2026-11-14_handoff_v27.md` | `handoff.md` | v28 作成のため（テスター募集の文面の下書き） | `handoff.md`（v28） |
+| 2026-11-15 | `2026-11-15_beta_recruit_draft_v1.md` | `beta_recruit_draft.md` | v2 作成のため（名前ではなくメールアドレスを聞く、番号はメールで自動送信、締め切り 11/21、謝礼なし） | `beta_recruit_draft.md`（v2） |
+| 2026-11-15 | `2026-11-15_beta_spec_v5.md` | `beta_spec.md` | v6 作成のため（テスター番号をメールで配る、対応表はメールアドレスと番号） | `beta_spec.md`（v6） |
+| 2026-11-15 | `2026-11-15_beta_consent_draft_v6.md` | `beta_consent_draft.md` | v7 作成のため（募集の情報を名前からメールアドレスに） | `beta_consent_draft.md`（v7） |
+| 2026-11-15 | `2026-11-15_CLAUDE.md` | `CLAUDE.md` | scripts/beta_tester_mail.gs をファイル一覧に追加 | `CLAUDE.md` |
+| 2026-11-15 | `2026-11-15_handoff_v28.md` | `handoff.md` | v29 作成のため（メールでの募集、仕様書 v6、同意書 v7） | `handoff.md`（v29） |
