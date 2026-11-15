@@ -110,3 +110,7 @@
 | 2026-11-15 | `2026-11-15_beta_consent_draft_v6.md` | `beta_consent_draft.md` | v7 作成のため（募集の情報を名前からメールアドレスに） | `beta_consent_draft.md`（v7） |
 | 2026-11-15 | `2026-11-15_CLAUDE.md` | `CLAUDE.md` | scripts/beta_tester_mail.gs をファイル一覧に追加 | `CLAUDE.md` |
 | 2026-11-15 | `2026-11-15_handoff_v28.md` | `handoff.md` | v29 作成のため（メールでの募集、仕様書 v6、同意書 v7） | `handoff.md`（v29） |
+| 2026-11-15 | `2026-11-15_beta_spec_v6.md` | `beta_spec.md` | v7 作成のため（9 章に 12/31・2027/3/31 までに消すものを足す） | `beta_spec.md`（v7） |
+| 2026-11-15 | `2026-11-15_beta_consent_draft_v7.md` | `beta_consent_draft.md` | v8 作成のため（メールアドレスの使い道にお知らせ、App Distribution のアドレスと送ったメールの消す日） | `beta_consent_draft.md`（v8） |
+| 2026-11-15 | `2026-11-15_beta_recruit_draft_v2.md` | `beta_recruit_draft.md` | v3 作成のため（メールアドレスの使い道を同意書 v8 に合わせる） | `beta_recruit_draft.md`（v3） |
+| 2026-11-15 | `2026-11-15_handoff_v29.md` | `handoff.md` | v30 作成のため（仕様書 v7・同意書 v8・募集 v3、消すものの一覧） | `handoff.md`（v30） |
