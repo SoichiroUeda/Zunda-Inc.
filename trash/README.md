@@ -115,3 +115,4 @@
 | 2026-11-15 | `2026-11-15_beta_recruit_draft_v2.md` | `beta_recruit_draft.md` | v3 作成のため（メールアドレスの使い道を同意書 v8 に合わせる） | `beta_recruit_draft.md`（v3） |
 | 2026-11-15 | `2026-11-15_handoff_v29.md` | `handoff.md` | v30 作成のため（仕様書 v7・同意書 v8・募集 v3、消すものの一覧） | `handoff.md`（v30） |
 | 2026-11-16 | `2026-11-16_handoff_v30.md` | `handoff.md` | v31 作成のため（新しいチャットへの引き継ぎ：進め方のコツと、11/16 時点の進行中のことを 6・7 章に足す） | `handoff.md`（v31） |
+| 2026-11-16 | `2026-11-16_handoff_v31.md` | `handoff.md` | v32 作成のため（リポジトリ Claude の進み具合の確認と、7 章の確認の答えを反映。IH の作業が止まっていること、IK・FT の進み、App Store Connect・Firebase の状況） | `handoff.md`（v32） |
