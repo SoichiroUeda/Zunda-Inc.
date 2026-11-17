@@ -1,11 +1,12 @@
 # Rism ベータ版 開発仕様書
 
-- **版:** v8（2026-11-17）
+- **版:** v9（2026-11-17）
 - **共有範囲:** プロジェクトメンバー向け（特に開発メンバー）
 - **この仕様書の「ベータ」:** 12 月に京大マーケの部員に使ってもらう**プライベートベータ**のことです。
 - **元にした資料:** `docs/alpha_spec.md`（v18）、アルファのふりかえり、リポジトリの今の状態（`main` と PR #42、11/11 時点）。v8 は、11/14 以降にマージした PR・Issue のコメント、11/16 の担当の変更、11/17 のオーナーの決定を反映
 - **v8 の主な変更:** 担当（S6 の振り分けと起動の流れは FT、S2・通知はオーナー、iPhone の配布はオーナー、Android の配布は IH・IK）、C1・C2 を配布のあとに回した、起床時刻の上限（3.15）、ビルド番号は iPhone・Android で 1 本の通し番号、S6 は S2 の上に重ねて開く、通知の取り消しと許可の決め事、交渉の理由を同意書に書いておく
-- **体制:** 開発 FT・IH・IK ／ マーケティング MH ／ 開発責任者（進行役）ぷらぐら（オーナー） ／ 技術の相談役 FT
+- **v9 の変更:** 体制にオーナーの作業を足した、S1 にテスター ID を渡すのは FT（3.8）、9 章を今の状態に直した
+- **体制:** 開発 FT・IH・IK ／ マーケティング MH ／ 開発責任者（進行役）ぷらぐら（オーナー） ／ 技術の相談役 FT。オーナーも一部の作業を受け持つ（S2 の編集・削除、通知、iPhone のビルドと TestFlight への上げ。作業は Claude Code）
 - **読み方:** 全員 1・2・8 章、開発メンバーは 3〜7 章のうち自分の担当部分を読んでください。
 - 「**【仮決め】**」は、オーナーが変えない限りこのまま進めてよい決め事です。「**開発者の判断でよい**」は、聞かずに決めて構いません。「**【要相談】**」は、決まるまで手を付けないでください。
 
@@ -325,7 +326,7 @@ Apple・Firebase の登録やテスターの招待は、オーナーが行う。
 
 **設定画面（IK、`settings_screen.dart`）**
 
-- 下に「プライバシーポリシー」「問い合わせ先」のリンク（`url_launcher`）と、テスター ID を置く。テスター ID は新しい引数で受け取り、渡すのは IH。
+- 下に「プライバシーポリシー」「問い合わせ先」のリンク（`url_launcher`）と、テスター ID を置く。テスター ID は新しい引数で受け取り、渡すのは FT。初めての S1（`main.dart`）と、S2 から開く S1（`today_screen.dart`）の両方を、FT が 1 つの PR で直す（IK の Issue #61 のあと）。`today_screen.dart` はオーナーの持ち物だが、この部分と S6 の部分は、FT が Issue で知らせてから直す（7.1）。
 - テスター番号の入力欄も、この画面に置く（3.14）。
 
 ### 3.9 B8 記録の取り出しと、データを消す道具（IH、11/28 まで）
@@ -505,7 +506,7 @@ flowchart TD
 | IH | `lib/screens/negotiation_screen.dart`、`lib/ai_adjust/`、`functions/`、`tools/`、`hosting/`、`android/`（P2・P3 のあと。`AndroidManifest.xml` の通知の分を除く）、`docs/prompt_negotiation.md`、`docs/release_android.md` |
 | IK | `lib/screens/consent_screen.dart`・`sleep_log_screen.dart`・`settings_screen.dart`・`task_edit_screen.dart`・`event_edit_screen.dart` |
 | オーナー | `CLAUDE.md`・`AGENTS.md`・`README.md`、`docs/beta_spec.md`・`docs/alpha_spec.md` |
-| オーナー（作業は Claude Code） | `lib/screens/today_screen.dart`（FT が S6 の部分を直すときは、Issue で知らせる）、`lib/notifications.dart`・`lib/notification_scheduler.dart`、`ios/Runner/AppDelegate.swift`（B4 の分だけ）と `android/app/src/main/AndroidManifest.xml` の通知の分 |
+| オーナー（作業は Claude Code） | `lib/screens/today_screen.dart`（S6 の部分と、S1 にテスター ID を渡す部分は、FT が Issue で知らせてから直す。3.4・3.8）、`lib/notifications.dart`・`lib/notification_scheduler.dart`、`ios/Runner/AppDelegate.swift`（B4 の分だけ）と `android/app/src/main/AndroidManifest.xml` の通知の分 |
 
 - **テスト（`test/`）：** 自分のファイルのテストは各自が書く。`test/widget_test.dart`・`test/notification_scheduler_test.dart`・`test/flutter_test_config.dart` の持ち主はオーナー。
 - 持ち主の表にないファイルを新しく作るときは、作った人が持ち主になる。迷ったら Issue で聞く。
@@ -561,10 +562,9 @@ C1（自由時間）・C2（延長だけ）は、もう配布のあとに回し�
 | いつまで | やること |
 | --- | --- |
 | 済 | Firebase のプロジェクト（Blaze・予算アラート・Firestore・匿名ログイン）、開発メンバーの招待、Gemini の有料のキーを Secret Manager に入れる |
-| すぐ | P1（指示書の書き換えと片付け）。Apple Developer Program の登録が済んだら `app.rism.rism` を登録して FT に知らせる。Gemini API の 1 日の回数に上限を付ける（Google Cloud の割り当て）。プロジェクト用の Gmail を作る |
-| `flutterfire configure` のあと | Firebase が作ったキーの使い道を、Firebase のものだけに絞る（Gemini API を入れない） |
+| 済（11/11〜11/12） | P1（指示書の書き換えと片付け）。Apple Developer Program の登録と `app.rism.rism` の登録（FT に知らせた）。プロジェクト用の Gmail を作る |
+| 済（11/12。`flutterfire configure` のあと） | Firebase が作ったキーの使い道を、Firebase のものだけに絞る（Gemini API を入れない） |
 | 済（11/16） | App Store Connect にアプリを作り、開発メンバーを内部テスターに入れる |
-| 配るたび | iPhone のビルドと TestFlight への上げ（3.7） |
 | Android の最初の配布の前 | Firebase App Distribution にメンバーを入れる（IK のアドレス待ち） |
 | 11/20 | 同意書・プライバシーポリシーを決める（IH の確認のあと） |
 | 11/22 | 機能がそろったかを確かめる（1.1） |
@@ -573,7 +573,7 @@ C1（自由時間）・C2（延長だけ）は、もう配布のあとに回し�
 | 配布のあと | 記録の取り出しを動かし、CSV を MH と共有した Google ドライブに置く。データを消す頼みを受け付けて、3.9 の道具で消す |
 | 12/31 まで | テスターのメールアドレスが残っている所を消す：申し込みの回答の表（メールアドレスと番号の対応表）、Firebase App Distribution のテスターの一覧、プロジェクト用の Gmail で送ったメール・受け取った返信、思い出しメールの設定（3.14） |
 | 2027/3/31 まで | 記録（Firestore）、取り出した CSV、「使う前」のフォームとアンケートの答えを消す（同意書の「保存する期間」） |
-| 期間中 | 仕様の質問にその日のうちに答える。Issue を書く。Android の配布用の鍵の控えを持つ |
+| 期間中 | 仕様の質問にその日のうちに答える。Issue を書く。Android の配布用の鍵の控えを持つ。配るたびに、iPhone をビルドして TestFlight に上げる（オーナーの Mac。3.7） |
 
 ---
 
